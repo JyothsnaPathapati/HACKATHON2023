@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 15vh;
+    font-size: 2.5rem;
+    padding-left: 35%;
+}
+.one{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.two{
+    
+    width:30%;
+    display: flex;
+height: 70vh;
+    flex-direction: column;
+    background-color:green;
+
+   
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+    flex-direction: column;
+    padding-top: 10%;
+}
+.two a {
+    display: flex;
+    text-decoration: none;
+    padding: 1rem 0rem;
+    color: white;
+    border-bottom: 70px solid white;
+    padding-left: 1rem;
+    font-size: 2rem;
+    padding-bottom: 15%; }
